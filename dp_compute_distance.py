@@ -229,4 +229,5 @@ if __name__ == '__main__':
 
     subspace_closeness = projection_metric(eigenvecs_priv, eigenvecs_pub).item()
 
+
     print(f"subspace distance: {subspace_closeness}")
